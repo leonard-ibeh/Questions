@@ -11,3 +11,18 @@ const convertToUppercase = function (title) {
   return capitalize(titleCase);
 };
 console.log(convertToUppercase("the boy is a goat FUll"));
+
+// Question 2
+const data1 = [5, 2, 4, 1, 15, 8, 3];
+const data2 = [16, 6, 10, 5, 6, 1, 4];
+
+const calcAv = function (data) {
+  const humanAge = data.map((data) => (data <= 2 ? 2 * data : 16 + data * 4));
+  console.log(humanAge);
+  const adult = humanAge.filter((age) => age >= 18);
+  console.log(adult);
+  const average = adult.reduce((acc, age) => acc + age, 0) / adult.length;
+  console.log(average);
+};
+
+calcAv(data1);
