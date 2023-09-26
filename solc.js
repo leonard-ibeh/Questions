@@ -49,6 +49,29 @@ Java is an Object-oriented programming language && Java application are generall
  */
 
 // Question 6
+/* -- What are the features of JavaScript?
+¬ Lightweight, interprered programming language by the browser and not a compiler 
+¬ cross-platform compatibility
+¬ It is Open-source
+¬ It is Object-oriented
+¬ intergration with other backend as well as frontend technologies 
+*/
+
+// Question 7
+/* -- What are the advantages of JavaScript?
+¬ Enhanced interaction - JavaScript adds interaction to otherwise static web pages and make them react to user' inputs
+¬ Quick   Feedback
+¬ Rich User interface
+*/
+
+// Question 8
+/* -- How do you create an object in javaScript ? 
+ const student = {
+  name: GodsTime,
+  age:17
+ }
+ */
+
 const data = function () {
   console.log("3,4,5");
 };
